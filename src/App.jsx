@@ -5,7 +5,6 @@ import { DUMMY_PRODUCTS } from './dummy-products.js';
 import CartContextProvider from './store/shopping-cart-context.jsx';
 
 function App() {
-
   return (
     <CartContextProvider>
       <Header />
